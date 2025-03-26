@@ -44,7 +44,7 @@ def communicate():
 st.title("翻訳アプリ")
 st.write("LangChainを使った翻訳アプリです。")
 
-options = ["日本語", "英語", "スペイン語", "ドイツ語", "フランス語", "中国語"]
+options = ["日本語", "英語", "中国語", "韓国語", "スペイン語", "ドイツ語", "フランス語"]
 source_lang = st.selectbox(label="翻訳元", options=options)
 target_lang = st.selectbox(label="翻訳先", options=options)
 st.text_input("翻訳する文章を入力してください。", key="user_input")
